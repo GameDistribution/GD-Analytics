@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Utils">
+    <Position X="8.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIEAIAQAAAAAEAAAAIASAAAAAABCACAAkQAE=</HashCode>
+      <FileName>App_Code\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpiringDictionary&lt;TKey, TValue&gt;">
+    <Position X="1" Y="1.75" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ExpiringDictionary&lt;TKey, TValue&gt;.ExpiringValueHolder&lt;T&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\ExpiringDictionary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CCIgAAABAAAEBBAQCAAABAQAAAABAAAAAAAgAABQICA=</HashCode>
+      <FileName>App_Code\ExpiringDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" />
+  </Class>
+  <Class Name="SessionObjects">
+    <Position X="5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAEAgAAAAAAAAAgAAAAARAAAAAA=</HashCode>
+      <FileName>App_Code\SessionObjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Country">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>App_Code\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseInfo">
+    <Position X="13.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAiQAAAEAiQAAAAAAABAAAKQAwAAQAQAYAgAACDEE=</HashCode>
+      <FileName>App_Code\DatabaseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location">
+    <Position X="16.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACARCAgABAAAAAAACAACCEACEgAAAAAAEAAAACAAAA=</HashCode>
+      <FileName>App_Code\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookupService" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IrICaCCiYBEAggPQCAAAIYCAAUgAQMJABIhBAEoAgBA=</HashCode>
+      <FileName>App_Code\LookupService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Region">
+    <Position X="21.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAACAoAAAAACAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserInformation">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\UserInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

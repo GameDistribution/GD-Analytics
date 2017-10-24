@@ -1,0 +1,80 @@
+﻿/********************************************************/
+/*                      Bootstrap Extra                 */
+/********************************************************/
+.progress-kivanc .bar,
+.progress .bar-kivanc {
+  background-color: #7aa732;
+  background-image: -moz-linear-gradient(top, #7bb450, #789406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7bb450), to(#789406));
+  background-image: -webkit-linear-gradient(top, #7bb450, #789406);
+  background-image: -o-linear-gradient(top, #7bb450, #789406);
+  background-image: linear-gradient(to bottom, #7bb450, #789406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7bb450', endColorstr='#ff789406', GradientType=0);
+}
+
+.progress-kivanc.progress-striped .bar,
+.progress-striped .bar-kivanc {
+  background-color: #7bb450;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+/********************************************************/
+/*                      18. Loaders                     */
+/********************************************************/
+
+.loader {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background: url(../img/standard/loaders/loading16.gif) no-repeat center center;
+	margin-top: -1px;
+	margin-bottom: 1px;
+	}
+	.input .loader:first-child {
+		margin-left: -1px;
+	}
+	.input .loader:last-child {
+		margin-right: -1px;
+		}
+		/* IE7 */
+		.input .loader.last-child {
+			margin-right: -1px;
+		}
+	.loader.waiting { 			background-image: url(../img/standard/loaders/waiting16.gif); }
+	.loader.working { 			background-image: url(../img/standard/loaders/working16.gif); }
+	.loader.refreshing { 		background-image: url(../img/standard/loaders/refreshing16.gif); }
+
+	.loader.on-dark { 				background-image: url(../img/standard/loaders/loading16_anthracite.gif); }
+	.loader.waiting.on-dark { 		background-image: url(../img/standard/loaders/waiting16_anthracite.gif); }
+	.loader.working.on-dark { 		background-image: url(../img/standard/loaders/working16_anthracite.gif); }
+	.loader.refreshing.on-dark { 	background-image: url(../img/standard/loaders/refreshing16_anthracite.gif); }
+
+	.loader.big { 				background-image: url(../img/standard/loaders/loading32.gif); width: 32px; height: 32px; }
+	.loader.big.waiting { 		background-image: url(../img/standard/loaders/waiting32.gif); }
+	.loader.big.working { 		background-image: url(../img/standard/loaders/working32.gif); }
+	.loader.big.refreshing { 	background-image: url(../img/standard/loaders/refreshing32.gif); }
+
+	.loader.big.on-dark { 				background-image: url(../img/standard/loaders/loading32_anthracite.gif); }
+	.loader.big.waiting.on-dark { 		background-image: url(../img/standard/loaders/waiting32_anthracite.gif); }
+	.loader.big.working.on-dark { 		background-image: url(../img/standard/loaders/working32_anthracite.gif); }
+	.loader.big.refreshing.on-dark { 	background-image: url(../img/standard/loaders/refreshing32_anthracite.gif); }
+
+	.loader.huge { 				background-image: url(../img/standard/loaders/loading64.gif); width: 64px; height: 64px; }
+	.loader.huge.waiting { 		background-image: url(../img/standard/loaders/waiting64.gif); }
+	.loader.huge.working { 		background-image: url(../img/standard/loaders/working64.gif); }
+	.loader.huge.refreshing { 	background-image: url(../img/standard/loaders/refreshing64.gif); }
+
+	.loader.huge.on-dark { 				background-image: url(../img/standard/loaders/loading64_anthracite.gif); }
+	.loader.huge.waiting.on-dark { 		background-image: url(../img/standard/loaders/waiting64_anthracite.gif); }
+	.loader.huge.working.on-dark { 		background-image: url(../img/standard/loaders/working64_anthracite.gif); }
+	.loader.huge.refreshing.on-dark { 	background-image: url(../img/standard/loaders/refreshing64_anthracite.gif); }
+
